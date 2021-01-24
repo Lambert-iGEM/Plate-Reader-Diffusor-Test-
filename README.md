@@ -27,14 +27,14 @@ Code to test the diffusion of the light on the diffusor based on different dista
 
 ## end result
 
-<hr>
+
 
 
 ![img of graph](https://cdn.discordapp.com/attachments/769754881414004741/802940682910171156/unknown.png)
 
 
 
-
+<hr>
 
   
   
