@@ -9,7 +9,7 @@ convert_split.split()
 
 
 #calulate Image Brightness
-directory = r'C:\Users\varun\Desktop\plateReader\savedIMG'
+directory = r'C:\Users\varun\Desktop\plateReader\DiffusorTest\savedIMG'
 for fileNum,filename in enumerate(os.listdir(directory)):
     img = Image.open(os.path.join(directory, filename))
     stat = ImageStat.Stat(img)
