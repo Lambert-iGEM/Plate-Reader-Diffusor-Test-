@@ -5,8 +5,10 @@ import math
 
 # open and split image 
 def split():
-    savedir = r"C:\Users\varun\Desktop\plateReader\savedIMG"
-    filename = r"C:\Users\varun\Desktop\plateReader\testImages\test1.png"
+    savedir = r"C:\Users\varun\Desktop\plateReader\DiffusorTest\savedIMG"
+    filename = r"C:\Users\varun\Desktop\plateReader\DiffusorTest\testImages\test1.png"
+    
+    
     img = Image.open(filename).convert('L')
     width, height = img.size
     start_pos = start_x, start_y = (0, 0)
